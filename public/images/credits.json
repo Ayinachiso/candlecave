@@ -1,0 +1,47 @@
+[
+  {
+    "role": "hero",
+    "file": "hero.jpg",
+    "photographer": "Svetlana B",
+    "source": "https://unsplash.com/photos/clear-glass-candle-holder-with-candles-Oa_VGwO6hXU",
+    "image": "https://images.unsplash.com/photo-1631274224582-b4210014c461?auto=format&fit=crop&fm=jpg&q=85&w=2200",
+    "license": "https://unsplash.com/license",
+    "notes": "Landscape warm golden candlelight and bokeh. Candles toward lower-left; dark space at right. Real photographed tealights in clear holders; no visible branding."
+  },
+  {
+    "role": "product-amber",
+    "photographer": "Vie Studio",
+    "source": "https://www.pexels.com/photo/burning-candle-on-glass-container-7004674/",
+    "notes": "Unbranded amber jar against clay and muted green. Landscape with broad empty upper area; excellent product crop.",
+    "file": "sunday.jpg",
+    "image": "https://images.pexels.com/photos/7004674/pexels-photo-7004674.jpeg?auto=compress&cs=tinysrgb&w=1800",
+    "license": "https://www.pexels.com/license/"
+  },
+  {
+    "role": "product-botanical",
+    "photographer": "Alesia Kozik",
+    "source": "https://www.pexels.com/photo/candle-in-a-brown-glass-container-7797454/",
+    "notes": "Amber candle with a blank black label amid dried ivory stems. Landscape warm ochre flat lay.",
+    "file": "midnight.jpg",
+    "image": "https://images.pexels.com/photos/7797454/pexels-photo-7797454.jpeg?auto=compress&cs=tinysrgb&w=1800",
+    "license": "https://www.pexels.com/license/"
+  },
+  {
+    "role": "product-woodland",
+    "photographer": "Alesia Kozik",
+    "source": "https://www.pexels.com/photo/candle-in-a-brown-glass-container-7796695/",
+    "notes": "Portrait amber jar with cork lid, blank black label, wood and green leaves.",
+    "file": "golden.jpg",
+    "image": "https://images.pexels.com/photos/7796695/pexels-photo-7796695.jpeg?auto=compress&cs=tinysrgb&w=1800",
+    "license": "https://www.pexels.com/license/"
+  },
+  {
+    "role": "lifestyle",
+    "photographer": "Bade Saba",
+    "source": "https://www.pexels.com/photo/a-lit-candle-near-a-book-13729082/",
+    "notes": "Portrait clear candle beside open book, burgundy/plum textile and window. Moody lower area. Strong fit for slow-evening story.",
+    "file": "ritual.jpg",
+    "image": "https://images.pexels.com/photos/13729082/pexels-photo-13729082.jpeg?auto=compress&cs=tinysrgb&w=1800",
+    "license": "https://www.pexels.com/license/"
+  }
+]
