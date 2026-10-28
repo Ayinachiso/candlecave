@@ -8,6 +8,13 @@
       "when": 1791540236350,
       "tag": "0000_omniscient_snowbird",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1791546958079,
+      "tag": "0001_handy_bloodstrike",
+      "breakpoints": true
     }
   ]
 }

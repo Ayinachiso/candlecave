@@ -1,6 +1,102 @@
-export const products = [
- {id:'sunday',name:'Slow Sunday',notes:'Vanilla · Sandalwood · Soft musk',family:'Warm',price:18000,image:'/images/sunday.jpg',colour:'#e4d5b9',description:'The feeling of nowhere to be. Creamy vanilla settles into soft woods for the gentlest end to your day.'},
- {id:'golden',name:'Golden Hour',notes:'Bergamot · Amber · Cedar',family:'Fresh',price:19500,image:'/images/golden.jpg',colour:'#d9ab72',description:'Windows open. Light on the wall. Bright bergamot meets glowing amber and a quietly woody finish.'},
- {id:'midnight',name:'After Hours',notes:'Dark rose · Oud · Patchouli',family:'Woody',price:21000,image:'/images/midnight.jpg',colour:'#bba5a1',description:'For conversations that run late. Deep woods, a little rose, and a rich, lingering warmth.'}
+import type {Product} from './product-model';
+export {moods,SHOP_URL} from './product-model';
+// Product names, prices and photos verified on Candlecave's Shopaza storefront.
+export const products:Product[]=[
+  {
+    "id": "aura",
+    "name": "Aura",
+    "category": "Reed diffuser",
+    "family": "Your glow",
+    "price": 25000,
+    "image": "/images/aura.jpg",
+    "colour": "#ffd33d",
+    "tagline": "Own your atmosphere.",
+    "notes": "A little presence. A space that feels like you.",
+    "description": "Make your favourite corner unmistakably yours. Aura is one of our signature best sellers, a home reed diffuser for bringing fragrance and a personal touch to the everyday.",
+    "shopUrl": "https://shopaza.africa/candlecave/products/aura",
+    "active": true,
+    "featured": true,
+    "available": true
+  },
+  {
+    "id": "obsession-reed-diffuser",
+    "name": "Obsession",
+    "category": "Reed diffuser",
+    "family": "A little drama",
+    "price": 25000,
+    "image": "/images/obsession-reed-diffuser.jpg",
+    "colour": "#ff8b3d",
+    "tagline": "Meet your new favourite.",
+    "notes": "The name says it all.",
+    "description": "Some things earn a permanent place in your routine. Meet Obsession, our best-selling reed diffuser for the space you love coming back to.",
+    "shopUrl": "https://shopaza.africa/candlecave/products/obsession-reed-diffuser",
+    "active": true,
+    "featured": true,
+    "available": true
+  },
+  {
+    "id": "good-juju",
+    "name": "Good Juju",
+    "category": "Reed diffuser",
+    "family": "Good energy",
+    "price": 25000,
+    "image": "/images/good-juju.jpg",
+    "colour": "#f3eaa3",
+    "tagline": "Good things live here.",
+    "notes": "Make room for a little everyday joy.",
+    "description": "Good Juju is a Candlecave best seller and a thoughtful addition to your home. Keep it for your own space, or give someone a little something to brighten theirs.",
+    "shopUrl": "https://shopaza.africa/candlecave/products/good-juju",
+    "active": true,
+    "featured": true,
+    "available": true
+  },
+  {
+    "id": "aura-scented-candle",
+    "name": "Aura Candle",
+    "category": "Scented candle",
+    "family": "Your glow",
+    "price": 30000,
+    "image": "/images/aura-scented-candle.jpg",
+    "colour": "#ffd33d",
+    "tagline": "Your glow, by candlelight.",
+    "notes": "The Aura candle edition.",
+    "description": "Make a moment of coming home with the Aura scented candle. Explore the candle edition of a signature Candlecave name.",
+    "shopUrl": "https://shopaza.africa/candlecave/products/aura-scented-candle",
+    "active": true,
+    "featured": false,
+    "available": true
+  },
+  {
+    "id": "obsession-room-spray",
+    "name": "Obsession Room Spray",
+    "category": "Room spray",
+    "family": "A little drama",
+    "price": 12000,
+    "image": "/images/obsession-room-spray.jpg",
+    "colour": "#ff8b3d",
+    "tagline": "A favourite, in a spritz.",
+    "notes": "The room-spray edition of Obsession.",
+    "description": "Bring Obsession into your everyday space with its room-spray edition. Visit the product listing for current availability and product details.",
+    "shopUrl": "https://shopaza.africa/candlecave/products/obsession-room-spray",
+    "active": true,
+    "featured": false,
+    "available": true
+  },
+  {
+    "id": "good-juju-car-diffuser",
+    "name": "Good Juju Car Diffuser",
+    "category": "Car diffuser",
+    "family": "Good energy",
+    "price": 13000,
+    "image": "/images/good-juju-car-diffuser.jpg",
+    "colour": "#f3eaa3",
+    "tagline": "Take the good things with you.",
+    "notes": "Good Juju for the journey.",
+    "description": "Take a little Candlecave on the road. The Good Juju car diffuser brings a favourite name into your daily drive.",
+    "shopUrl": "https://shopaza.africa/candlecave/products/good-juju-car-diffuser",
+    "active": true,
+    "featured": false,
+    "available": true
+  }
 ];
 export const money=(value:number)=>new Intl.NumberFormat('en-NG',{style:'currency',currency:'NGN',maximumFractionDigits:0}).format(value);
